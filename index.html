@@ -7,14 +7,14 @@
     <title>My responsive design</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <h3>Head.</h3>
+        <h3 class="logo">Head.</h3>
         <nav>
             <ul>
                 <li><a href="¤">Works</a></li>
@@ -26,10 +26,14 @@
     <main>
         <section class="first">
             <div class="card">
-                <h1>Patagonia</h1>
+                <h1 class="main__heading">Patagonia</h1>
                 <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcor.</p>
             </div>
-            <img src="images/horses_desktop.jpg" alt="Wild horses" class="img">
+            <picture class="img">
+                <source media="(max-width: 500px)" srcset="images/horses_mobile.png">
+                <source media="(max-width: 800px)" srcset="images/horses_tablet.jpg">
+                <img src="images/horses_desktop.jpg" alt="Wild horses" class="img">
+            </picture>
         </section>
     </main>
 </body>
