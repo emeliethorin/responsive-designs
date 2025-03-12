@@ -3,6 +3,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 25px;
+    padding: 20px;
 }
 
 .logo {
@@ -14,7 +15,6 @@ header {
 
 nav {
     display: flex;
-    padding-right: 20px;
 }
 
 nav ul {
@@ -44,7 +44,7 @@ nav ul li a {
     padding-right: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 550px) {
     .menu {
         display: none; 
         flex-direction: column;
@@ -66,7 +66,7 @@ nav ul li a {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 550px) {
     .menu-icon {
         display: none;
         font-weight: bold;

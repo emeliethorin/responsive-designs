@@ -20,7 +20,7 @@ body {
     max-width: 574px;
     text-align: center;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 p {
@@ -40,7 +40,7 @@ p {
     width: 100%;
     max-width: 864px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -49,6 +49,11 @@ p {
         font-size: 72px;
         margin-top: 20px;
     }
+
+    .img {
+        max-width: 617px;
+    }
+
     .logo {
         font-family: Baloo;
     }
