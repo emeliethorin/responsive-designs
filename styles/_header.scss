@@ -48,14 +48,14 @@ nav ul li a {
     .menu {
         display: none; 
         flex-direction: column;
-        background: rgb(252, 249, 249);
+        background: rgb(226, 226, 226);
         position: absolute;
         top: 60px;
         right: 20px;
         width: 100px;
         padding: 10px;
         margin-top: 10px;
-        border-radius: 5px;
+        border-radius: 4px;
     }
 
     .menu.active {
@@ -64,6 +64,10 @@ nav ul li a {
 
     .menu-icon {
         display: block; 
+    }
+
+    .menu li a:hover {
+        font-weight: bold;
     }
 }
 
